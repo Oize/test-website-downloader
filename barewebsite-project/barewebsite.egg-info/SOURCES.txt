@@ -1,0 +1,9 @@
+README.txt
+setup.py
+barewebsite/__init__.py
+barewebsite/core.py
+barewebsite.egg-info/PKG-INFO
+barewebsite.egg-info/SOURCES.txt
+barewebsite.egg-info/dependency_links.txt
+barewebsite.egg-info/entry_points.txt
+barewebsite.egg-info/top_level.txt
