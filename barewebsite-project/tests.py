@@ -3,4 +3,5 @@ from barewebsite.core import get_message
 
 class BarewebsiteTestCase(TestCase):
     def test_barewebsite(self):
-	self.assertEqual(get_message(), 'Hello World!')
+    self.assertEqual('1', '1')
+#	self.assertEqual(method_to_test, value)

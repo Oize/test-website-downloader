@@ -8,9 +8,13 @@ setup(
     packages = find_packages(),
     long_description = open(join(dirname(__file__), 'README.txt')).read(),
     include_package_data = True,
+    install_requires=[
+        'chardet',
+        'lxml',
+    ],
     test_suite = 'tests',
     entry_points = {
         'console_scripts':
-            ['barewebsite = barewebsite.core:print_message']
+            ['barewebsite = barewebsite.core:main']
     }
 )
