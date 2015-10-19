@@ -6,7 +6,8 @@ import sys
 import codecs
 
 #lxml version
-import lxml.html
+import lxml
+from lxml import html, etree
 from lxml.html.clean import Cleaner
 
 cleaner = Cleaner()
@@ -24,17 +25,17 @@ webContent = lxml.html.parse(url)
 #cleaning page
 cleanPage = cleaner.clean_html(webContent)
 #result
-Result = lxml.html.tostring(cleanPage)
+Result = lxml.etree.tostring(cleanPage, pretty_print=True, method='html')
 
 #urllib version
 #f = open('index.html', 'w')
 #f.write(webContent)
 
 #lxml version
-f = open('index_lxml.html', 'w')
-#f.write(cleanPage)
-print cleanPage
-f.close()
+#f = open('index_lxml.html', 'w')
+#f.write(Result)
+sys.stdout.write(Result)
+#f.close()
 
 #urllib version
 #print webContent
