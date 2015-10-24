@@ -7,7 +7,6 @@ Functions:
  - remove all styles and javascripts from the web-page;
  - print edited page to standart output.
 
--------------
 #Installation
 
 First install the XSLT library:
@@ -26,7 +25,6 @@ Install package:
 
 > python setup.py install
 
-------
 #Usage
 
 Terminal command example:
