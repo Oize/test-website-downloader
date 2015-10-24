@@ -12,21 +12,21 @@ Functions:
 
 First install the XSLT library:
 
-'''
+```
 sudo apt-cache install libxslt1-dev
-'''
+```
 
 Unpack package archive with the following command:
 
-'''
+```
 tar xvzf barewebsite-1.0.tar.gz
-'''
+```
 
 Enter the resulting folder:
 
-'''
+```
 cd barewebsite-1.0/
-'''
+```
 
 Install package:
 
@@ -38,6 +38,6 @@ python setup.py install
 
 Terminal command example:
 
-'''
+```
 barewebsite http://your.web.page/
-'''
+```
