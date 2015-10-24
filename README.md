@@ -1,2 +1,2 @@
 # f-tech-test
-Test exercise for F-Technology
+Test website content downloader
