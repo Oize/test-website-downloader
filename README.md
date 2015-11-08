@@ -30,9 +30,9 @@ cd barewebsite-1.0/
 
 Install package:
 
-'''
+```
 python setup.py install
-'''
+```
 
 ##Usage
 
