@@ -13,7 +13,7 @@ Functions:
 First install the XSLT library:
 
 ```
-sudo apt-cache install libxslt1-dev
+sudo apt-get install libxslt1-dev
 ```
 
 Unpack package archive with the following command:
